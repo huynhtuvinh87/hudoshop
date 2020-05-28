@@ -1,0 +1,227 @@
+.special-offer{
+    padding: 20px 0;
+    clear: both;
+    background-color: #52af50;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.special-offer h3{
+    margin: 0;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 700;
+}
+.special-offer h3 a{
+    color: #fff;
+}
+.special-offer h3 a:hover{
+    color: #52af50;
+}
+.responsive-img {
+    height: 90px;
+    margin-bottom: 20px;
+}
+.responsive-img img {
+    height: 100%;
+    width: auto;
+}
+.sales-points h4{
+    font-size: 18px;
+    line-height: 24px;
+    color: #000;
+    text-align: center;
+}
+.sales-points p{
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+    color: #545454;
+}
+.sales-points p:last-child{
+    margin-bottom: 0;
+}
+.sales-points .item{
+    width: 33.33%;
+    float: left;
+}
+.sales-points .item {
+    border-right: 1px solid #e6e6e6;
+    padding: 30px;
+    text-align: center;
+}
+.sales-points .item:nth-child(3n){
+    border-right: 0;
+}
+.intro-section{
+    padding: 25px 0;
+}
+.intro-1{
+    background-color: #fff;
+}
+.intro-section h3{
+    font-size: 30px;
+    line-height: 1.2;
+    text-align: center;
+    margin-bottom: 25px;
+    margin-top: 0;
+}
+.sales-points{
+    width: 100%;
+    float: left;
+    display: flex;
+}
+.intro-2 .sales-points{
+    border-radius: 5px;
+    border: 1px solid #e6e6e6;
+    padding: 20px 0;
+    background-color: #fff;
+}
+.banner-intro{
+    background: url(../images/banner-intro.jpg) 100% 100% no-repeat;
+    width: 100%;
+    float: left;
+    clear: both;
+    padding: 30px 0;
+}
+.banner-intro .text-banner{
+    padding: 40px;
+    margin: 40px 0;
+    float: right;
+    width: 50%;
+    background-color: hsla(0, 0%, 100%,0.9);
+    border-radius: 8px;
+}
+.banner-intro .text-banner h2{
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #52af50;
+}
+.banner-intro .text-banner p{
+    font-size: 16px;
+    line-height: 22px;
+    margin-bottom: 25px;
+    color: #545454;
+}
+a.continue{
+    display: inline-block;
+    padding: 10px;
+    font-size: 18px;
+    line-height: 1.2;
+    color: #fff;
+    background-color: #52af50;
+    border-radius: 5px;
+    border: 1px solid #52af50;
+    transition: .3s all ease-in-out;
+}
+a.continue:hover{
+    color: #52af50;
+    background-color: #fff;
+}
+.contact-now{
+    padding: 5px 0;
+    background-color: #52af50;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.contact-now p{
+    display: inline-block;
+    font-size: 30px;
+    line-height: 35px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 0;
+    margin-left: 15px;
+    vertical-align: middle;
+}
+.contact-now p a{
+    text-decoration: underline;
+}
+.contact-now p a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+header.intro-header .top-bar ul{
+    padding-left: 0;
+    margin-bottom: 0;
+    display: inline-block;
+    height: inherit;
+    line-height: inherit;
+}
+header.intro-header .top-bar ul li{
+    list-style-type: none;
+    display: inline-block;
+    color: #cecac8;
+    margin-right: 15px;
+    font-size: 12px;
+}
+header.intro-header .top-bar ul li:last-child{
+    margin-right: 0;
+}
+header.intro-header .top-bar ul li a{
+    color: #cecac8;
+}
+header.intro-header .top-bar ul li a:hover{
+    color: #52af50;
+}
+header.intro-header .top-bar{
+    height: inherit;
+    padding:5px 0;
+    border-bottom: 1px solid #e6e6e6;
+    background-color: #fff;
+}
+header.intro-header nav ul.main-menu{
+    display: inline-block;
+    padding-left: 50px;
+    margin-bottom: 0;
+}
+header.intro-header nav ul.main-menu li{
+    display: inline;
+}
+header.intro-header nav ul.main-menu li a{
+    color: #444;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 300;
+    line-height: 21px;
+    padding: 0 25px 0 0;
+    font-family: Roboto, sans-serif;
+}
+header.intro-header nav ul.main-menu li a:hover{
+    color: #52af50;
+}
+header.intro-header nav.navigation{
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: 20px;
+}
+header.intro-header .bottom .right{
+    float: right;
+    margin-top: 10px;
+}
+header.intro-header .bottom .left{
+    float: left;
+    margin-top: 6px;
+}
+header.intro-header .bottom{
+    padding: 10px 0;
+}
+header.intro-header .button-block a.btn-custom{
+    background-color: #52af50;
+    border-color: #52af50;
+    color: #fff;
+}
+header.intro-header .button-block a.btn-custom:hover{
+    background-color: #278525;
+    border-color: #278525;
+}
+.main-nav .list-cat > li > a > i{
+    line-height: 40px;
+    top: 0;
+}
+.menu-mobi .side-nav ul li i.nha-cua svg{
+    margin-top: 5px;
+}

@@ -1,0 +1,77 @@
+<?php
+
+namespace App\Facades;
+
+use Storage;
+
+class Province
+{
+    public function get()
+    {
+        return [
+            'HN' => 'Hà Nội',
+            'SG' => 'Hồ Chí Minh',
+            'DDN' => 'Đà Nẵng',
+            'BD' => 'Bình Dương',
+            'DNA' => 'Đồng Nai',
+            'KH' => 'Khánh Hoà',
+            'HP' => 'Hải Phòng',
+            'LA' => 'Long An',
+            'QNA' => 'Quãng Nam',
+            'VT' => 'Vũng Tàu',
+            'DDL' => 'Đắk Lắk',
+            'CT' => 'Cần Thơ',
+            'BTH' => 'Bình Thuận',
+            'LDD' => 'Lâm Đồng',
+            'TTH' => 'Thừa Thiên Huế',
+            'KG' => 'Kiên Giang',
+            'BN' => 'Bắc Ninh',
+            'QNI' => 'Quãng Ninh',
+            'TH' => 'Thanh Hoá',
+            'NA' => 'Nghệ An',
+            'HD' => 'Hải Dương',
+            'GL' => 'Gia Lai',
+            'BP' => 'Bình Phước',
+            'HY' => 'Hưng Yên',
+            'BDD' => 'Bình Định',
+            'TG' => 'Tiền Giang',
+            'TB' => 'Thái Bình',
+            'BG' => 'Bắc Giang',
+            'HB' => 'Hoà Bình',
+            'AG' => 'An Giang',
+            'VP' => 'Vĩnh Phúc',
+            'TNI' => 'Tây Ninh',
+            'TN' => 'Thái Nguyên',
+            'LCA' => 'Lào Cai',
+            'NDD' => 'Nam Định',
+            'QNG' => 'Quãng Ngãi',
+            'BTR' => 'Bến Tre',
+            'DNO' => 'Đắk Nông',
+            'CM' => 'Cà Mau',
+            'VL' => 'Vĩnh Long',
+            'NB' => 'Ninh Bình',
+            'PT' => 'Phú Thọ',
+            'NT' => 'Ninh Thuận',
+            'PY' => 'Phú Yên',
+            'HNA' => 'Hà Nam',
+            'HT' => 'Hà Tĩnh',
+            'DDT' => 'Đồng Tháp',
+            'ST' => 'Sóc Trăng',
+            'KT' => 'Kom Tum',
+            'QB' => 'Quảng Bình',
+            'QT' => 'Quảng Trị',
+            'TV' => 'Trà Vinh',
+            'HGI' => 'Hậu Giang',
+            'SL' => 'Sơn La',
+            'BL' => 'Bạc Liêu',
+            'YB' => 'Yên Bái',
+            'TQ' => 'Tuyên Quang',
+            'DDB' => 'Điện Biên',
+            'LCH' => 'Lai Châu',
+            'LS' => 'Lạng Sơn',
+            'HG' => 'Hà Giang',
+            'BK' => 'Bắc Cạn',
+            'CB' => 'Cao Bằng',
+        ];
+    }
+}
